@@ -42,6 +42,9 @@
 ; 		(= 0 (modulo x 2))))
 
 
-(keep-matching-items (list 1 2 3 4 5 6 7 0)
-	(lambda (x)
-		(< 3 x 6)))
+; (keep-matching-items (list 1 2 3 4 5 6 7 0)
+; 	(lambda (x)
+; 		(< 3 x 6)))
+
+
+(reduce + 1 (list 1 2 3 4))
